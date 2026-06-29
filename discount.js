@@ -4,7 +4,7 @@ function calculateFinalPrice(price, membership) {
   }
   let rate = 1;
   if (membership === 'gold') {
-    rate = 0.8;
+    rate = 0.85;
   } else if (membership === 'silver') {
     rate = 0.9;
   }
